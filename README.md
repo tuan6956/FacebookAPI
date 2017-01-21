@@ -22,7 +22,7 @@ string[] GetFriendRequest()
 bool - CheckLive()
 
 
-
+-----------------------------------------------------------------
 
 
 Example:
