@@ -3,23 +3,26 @@ Release 21/01 - Download : https://goo.gl/hiUtkx
 
 //----------------------------------Developed by Tuan6956----------------------------------//
 
-bool - Follow (string UID)
+Follow (string UID): bool
 
-bool - AddFriend (string UID)
+AddFriend (string UID): bool
 
-bool - Comment (string ID_Post, string Message)
+Comment (string ID_Post, string Message): bool
 
-bool - Like (string ID_Post)
+Like (string ID_Post): bool
 
-bool - UpdateStatus (string Status,out string IdPost) - UpdateStatus(string Status, string Link, out string IdPost)
+UpdateStatus (string Status,out sting IdPost) : bool
 
-bool - UploadPhoto (string Status, string UrlPicture, out string IdPost)
+UpdateStatus(string Status, string Link, out string IdPost): bool
 
-bool - Share (string IDShare,string IdPost)
+UploadPhoto (string Status, string UrlPicture, out string IdPost): bool
 
-string[] GetFriendRequest()
+Share (string IDShare,string IdPost): bool
 
-bool - CheckLive()
+string[] GetFriendRequest(): string[]
+
+CheckLive(): bool
+
 
 
 -----------------------------------------------------------------
